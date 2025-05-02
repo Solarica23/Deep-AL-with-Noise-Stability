@@ -18,7 +18,7 @@ import math
 from tqdm.auto import tqdm
 from dataclasses import dataclass
 from typing import List
-from batchbald_redux import joint_entropy
+#from batchbald_redux import joint_entropy
 
 
 def predict_prob_dropout_split(models, unlabeled_loader, args, log_softmax=False):
